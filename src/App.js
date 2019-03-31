@@ -4,6 +4,9 @@ import "./App.css";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./skills&pro";
+import Education from "./Education";
+import Language from "./Language";
+import Interests from "./Interests";
 
 class App extends Component {
   renderExperiences() {
@@ -30,6 +33,29 @@ class App extends Component {
     });
     console.log("work");
     return allskills;
+  }
+
+  renderEducation() {
+    let alleducation = [];
+    resume.education.map((item, i) => {
+      alleducation.push(<Education item={item} key={i} />);
+    });
+    return alleducation;
+  }
+  renderLanguage() {
+    let alllanguage = [];
+    resume.languages.map((item, i) => {
+      alllanguage.push(<Language item={item} key={i} />);
+    });
+    return alllanguage;
+  }
+
+  renderInterests() {
+    let allInterests = [];
+    resume.interests.map((item, i) => {
+      allInterests.push(<Interests item={item} key={i} />);
+    });
+    return allInterests;
   }
   render() {
     console.log(resume);
@@ -88,41 +114,19 @@ class App extends Component {
 
             <div className="education-container container-block">
               <h2 className="container-block-title">Education</h2>
-              <div className="item">
-                <h4 className="degree">MSc in Computer Science</h4>
-                <h5 className="meta">University of London</h5>
-                <div className="time">2011 - 2012</div>
-              </div>
-
-              <div className="item">
-                <h4 className="degree">BSc in Applied Mathematics</h4>
-                <h5 className="meta">Bristol University</h5>
-                <div className="time">2007 - 2011</div>
-              </div>
+              {this.renderEducation()}
             </div>
 
             <div className="languages-container container-block">
               <h2 className="container-block-title">Languages</h2>
               <ul className="list-unstyled interests-list">
-                <li>
-                  English <span className="lang-desc">(Native)</span>
-                </li>
-                <li>
-                  French <span className="lang-desc">(Professional)</span>
-                </li>
-                <li>
-                  Spanish <span className="lang-desc">(Professional)</span>
-                </li>
+                {this.renderLanguage()}
               </ul>
             </div>
 
             <div className="interests-container container-block">
               <h2 className="container-block-title">Interests</h2>
-              <ul className="list-unstyled interests-list">
-                <li>Climbing</li>
-                <li>Snowboarding</li>
-                <li>Cooking</li>
-              </ul>
+              {this.renderInterests()}
             </div>
           </div>
 
