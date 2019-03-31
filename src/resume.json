@@ -1,0 +1,87 @@
+{
+  "name": "Prateek kumar",
+  "email": "prateeknepali7@gmail.com",
+  "phone": "8920756078",
+  "image": "https://scontent.fdel12-1.fna.fbcdn.net/v/t1.0-9/14720426_205105856585743_1527679769048312384_n.jpg?_nc_cat=107&_nc_ht=scontent.fdel12-1.fna&oh=ac7a6849e7324db343c5d795cdbaa310&oe=5D47343E",
+  "Linkedin": "https://www.linkedin.com/in/prateek-kumar-a62976170",
+  "github": "https://github.com/prateeknepali07",
+  "twitter": "https://twitter.com/NepaliPrateek",
+  "experiences": [
+    {
+      "title": "Frontend Developer",
+      "Period": "2019/Jan - Present",
+      "company": "Emjoy",
+      "companyURL": "https://emjoy.co",
+      "details": "I work on Reactjs in Emjoy . They give me a custom theme to work on and i made certain components for the website like Login screen, Tenant list and many other components.I have also use Bootstrap version 4 as my CSS framework"
+    },
+    {
+      "title": "Full Stack Developer",
+      "Period": "2019/March - Present",
+      "company": "Ideationz",
+      "companyURL": "https://www.ideationz.in/",
+      "details": "I work as a Full Stack Developer. Frontend- Reactjs, Bootstrap4,MaterialzieCSS,CSS. Backend - Nodejs, MongoDB."
+    }
+  ],
+  "projects": [
+    {
+      "name": "CollegeManagementSystem APP",
+      "url": "https://github.com/prateeknepali07/College-management-hackathon",
+      "detail": "Manage the College System  just like - Attendance, Result, Attendence , Anouncement,libary system etc."
+    },
+    {
+      "name": "MeetUp APP",
+      "url": "https://hackerearth-hackathon.firebaseapp.com/",
+      "detail": "I just like a meetup app. A person can easily find out what event going on nearest place."
+    },
+    {
+      "name": "Upgrad Task",
+      "url": "https://upgrad-17543.firebaseapp.com/",
+      "detail": "I this App User can easily Add a phone number and Name and show in the list form and easily deleted."
+    },
+    {
+      "name": "Deevesoft",
+      "url": "https://github.com/prateeknepali07/Deevesoft",
+      "detail": "A reponsive template using pure CSS "
+    }
+  ],
+  "skill": [
+    {
+      "name": "Reactjs",
+      "precent": "85"
+    },
+    {
+      "name": "NODEJS",
+      "precent": "90"
+    },
+    {
+      "name": "Javascript",
+      "precent": "90"
+    },
+    {
+      "name": "HTML5 & CSS",
+      "precent": "98"
+    },
+    {
+      "name": "Javascript",
+      "precent": "95"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Btech in Electronics and Communcation",
+      "university": "Inderprasth University",
+      "period": "2016 - 2020"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "details": "Professional"
+    },
+    {
+      "name": "Hindi",
+      "details": "Professional"
+    }
+  ],
+  "interests": ["Reading Books", "Vollyball", "Travelling"]
+}
